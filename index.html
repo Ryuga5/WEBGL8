@@ -5,7 +5,7 @@
     <script src="https://unpkg.com/three@0.137.4/examples/js/controls/OrbitControls.js"></script>
   </head>
 <body>
- <h1>CG第8回 出欠課題</h1>
+ <h1>5回目の提出物</h1>
  とあるゲームに出てくる、願いを叶える時計です
  <script>
       // ページの読み込みを待つ
@@ -46,7 +46,7 @@
         scene.add(directionalLight2);
 
         var planeGeometry = new THREE.PlaneGeometry(5,5,10,10); //縦、横、分割数、分割数
-        var planeMaterial = new THREE.MeshBasicMaterial({color: 0x00ff00});
+        var planeMaterial = new THREE.MeshBasicMaterial({color: 0xffffdd});
         var plane = new THREE.Mesh(planeGeometry,planeMaterial);
         plane.rotation.set( -Math.PI/2, 0, 0 );
         plane.position.set(0,0,0);
